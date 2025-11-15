@@ -51,59 +51,57 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Obinna Aguwa', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'obinna-aguwa',
+    x: 'obinnaAguwa',
+    mastodon: 'obinnaaguwa@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'MacmartinsMedia', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'macmartins081',
+    dev: 'macmartins',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.obinnaaguwa.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'macmartins081@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/uc?export=download&id=1k0-k3jO01pYOZdqAH0UCjbUpkTED_t9S', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
+    'Golang',
+    'Swift',
+    'Flutter',
+    'Docker',
+    'Kubernetes',
     'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'REST APIs',
+    'Microservices',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Dayforce',
+      position: 'iOS Developer',
+      from: 'March 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.dayforce.com/uk',
     },
     {
-      company: 'Company Name',
+      company: 'Konga',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
@@ -168,7 +166,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -179,8 +177,8 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark',
+      'light',
       'cupcake',
       'bumblebee',
       'emerald',
